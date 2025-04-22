@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/icons-fonts/fonts/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <!--nav bar start here-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background: #1c1c50;">
+		<div class="container text-center">
+			<a href="#" class="navbar-brand">
+                <svg class="mb-3" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="aqua" class="bi bi-flower1" viewBox="0 0 16 16">
+                    <path d="M6.174 1.184a2 2 0 0 1 3.652 0A2 2 0 0 1 12.99 3.01a2 2 0 0 1 1.826 3.164 2 2 0 0 1 0 3.652 2 2 0 0 1-1.826 3.164 2 2 0 0 1-3.164 1.826 2 2 0 0 1-3.652 0A2 2 0 0 1 3.01 12.99a2 2 0 0 1-1.826-3.164 2 2 0 0 1 0-3.652A2 2 0 0 1 3.01 3.01a2 2 0 0 1 3.164-1.826M8 1a1 1 0 0 0-.998 1.03l.01.091q.017.116.054.296c.049.241.122.542.213.887.182.688.428 1.513.676 2.314L8 5.762l.045-.144c.248-.8.494-1.626.676-2.314.091-.345.164-.646.213-.887a5 5 0 0 0 .064-.386L9 2a1 1 0 0 0-1-1M2 9l.03-.002.091-.01a5 5 0 0 0 .296-.054c.241-.049.542-.122.887-.213a61 61 0 0 0 2.314-.676L5.762 8l-.144-.045a61 61 0 0 0-2.314-.676 17 17 0 0 0-.887-.213 5 5 0 0 0-.386-.064L2 7a1 1 0 1 0 0 2m7 5-.002-.03a5 5 0 0 0-.064-.386 16 16 0 0 0-.213-.888 61 61 0 0 0-.676-2.314L8 10.238l-.045.144c-.248.8-.494 1.626-.676 2.314-.091.345-.164.646-.213.887a5 5 0 0 0-.064.386L7 14a1 1 0 1 0 2 0m-5.696-2.134.025-.017a5 5 0 0 0 .303-.248c.184-.164.408-.377.661-.629A61 61 0 0 0 5.96 9.23l.103-.111-.147.033a61 61 0 0 0-2.343.572c-.344.093-.64.18-.874.258a5 5 0 0 0-.367.138l-.027.014a1 1 0 1 0 1 1.732zM4.5 14.062a1 1 0 0 0 1.366-.366l.014-.027q.014-.03.036-.084a5 5 0 0 0 .102-.283c.078-.233.165-.53.258-.874a61 61 0 0 0 .572-2.343l.033-.147-.11.102a61 61 0 0 0-1.743 1.667 17 17 0 0 0-.629.66 5 5 0 0 0-.248.304l-.017.025a1 1 0 0 0 .366 1.366m9.196-8.196a1 1 0 0 0-1-1.732l-.025.017a5 5 0 0 0-.303.248 17 17 0 0 0-.661.629A61 61 0 0 0 10.04 6.77l-.102.111.147-.033a61 61 0 0 0 2.342-.572c.345-.093.642-.18.875-.258a5 5 0 0 0 .367-.138zM11.5 1.938a1 1 0 0 0-1.366.366l-.014.027q-.014.03-.036.084a5 5 0 0 0-.102.283c-.078.233-.165.53-.258.875a61 61 0 0 0-.572 2.342l-.033.147.11-.102a61 61 0 0 0 1.743-1.667c.252-.253.465-.477.629-.66a5 5 0 0 0 .248-.304l.017-.025a1 1 0 0 0-.366-1.366M14 9a1 1 0 0 0 0-2l-.03.002a5 5 0 0 0-.386.064c-.242.049-.543.122-.888.213-.688.182-1.513.428-2.314.676L10.238 8l.144.045c.8.248 1.626.494 2.314.676.345.091.646.164.887.213a5 5 0 0 0 .386.064zM1.938 4.5a1 1 0 0 0 .393 1.38l.084.035q.108.045.283.103c.233.078.53.165.874.258a61 61 0 0 0 2.343.572l.147.033-.103-.111a61 61 0 0 0-1.666-1.742 17 17 0 0 0-.66-.629 5 5 0 0 0-.304-.248l-.025-.017a1 1 0 0 0-1.366.366m2.196-1.196.017.025a5 5 0 0 0 .248.303c.164.184.377.408.629.661A61 61 0 0 0 6.77 5.96l.111.102-.033-.147a61 61 0 0 0-.572-2.342c-.093-.345-.18-.642-.258-.875a5 5 0 0 0-.138-.367l-.014-.027a1 1 0 1 0-1.732 1m9.928 8.196a1 1 0 0 0-.366-1.366l-.027-.014a5 5 0 0 0-.367-.138c-.233-.078-.53-.165-.875-.258a61 61 0 0 0-2.342-.572l-.147-.033.102.111a61 61 0 0 0 1.667 1.742c.253.252.477.465.66.629a5 5 0 0 0 .304.248l.025.017a1 1 0 0 0 1.366-.366m-3.928 2.196a1 1 0 0 0 1.732-1l-.017-.025a5 5 0 0 0-.248-.303 17 17 0 0 0-.629-.661A61 61 0 0 0 9.23 10.04l-.111-.102.033.147a61 61 0 0 0 .572 2.342c.093.345.18.642.258.875a5 5 0 0 0 .138.367zM8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+                </svg>
+
+                <span class="display-6" style="color: aqua; text-shadow:0 0 3px #fff;" id="name">B.Sapthika</span>
+
+                <svg class="mb-3" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="aqua" class="bi bi-flower1" viewBox="0 0 16 16">
+                    <path d="M6.174 1.184a2 2 0 0 1 3.652 0A2 2 0 0 1 12.99 3.01a2 2 0 0 1 1.826 3.164 2 2 0 0 1 0 3.652 2 2 0 0 1-1.826 3.164 2 2 0 0 1-3.164 1.826 2 2 0 0 1-3.652 0A2 2 0 0 1 3.01 12.99a2 2 0 0 1-1.826-3.164 2 2 0 0 1 0-3.652A2 2 0 0 1 3.01 3.01a2 2 0 0 1 3.164-1.826M8 1a1 1 0 0 0-.998 1.03l.01.091q.017.116.054.296c.049.241.122.542.213.887.182.688.428 1.513.676 2.314L8 5.762l.045-.144c.248-.8.494-1.626.676-2.314.091-.345.164-.646.213-.887a5 5 0 0 0 .064-.386L9 2a1 1 0 0 0-1-1M2 9l.03-.002.091-.01a5 5 0 0 0 .296-.054c.241-.049.542-.122.887-.213a61 61 0 0 0 2.314-.676L5.762 8l-.144-.045a61 61 0 0 0-2.314-.676 17 17 0 0 0-.887-.213 5 5 0 0 0-.386-.064L2 7a1 1 0 1 0 0 2m7 5-.002-.03a5 5 0 0 0-.064-.386 16 16 0 0 0-.213-.888 61 61 0 0 0-.676-2.314L8 10.238l-.045.144c-.248.8-.494 1.626-.676 2.314-.091.345-.164.646-.213.887a5 5 0 0 0-.064.386L7 14a1 1 0 1 0 2 0m-5.696-2.134.025-.017a5 5 0 0 0 .303-.248c.184-.164.408-.377.661-.629A61 61 0 0 0 5.96 9.23l.103-.111-.147.033a61 61 0 0 0-2.343.572c-.344.093-.64.18-.874.258a5 5 0 0 0-.367.138l-.027.014a1 1 0 1 0 1 1.732zM4.5 14.062a1 1 0 0 0 1.366-.366l.014-.027q.014-.03.036-.084a5 5 0 0 0 .102-.283c.078-.233.165-.53.258-.874a61 61 0 0 0 .572-2.343l.033-.147-.11.102a61 61 0 0 0-1.743 1.667 17 17 0 0 0-.629.66 5 5 0 0 0-.248.304l-.017.025a1 1 0 0 0 .366 1.366m9.196-8.196a1 1 0 0 0-1-1.732l-.025.017a5 5 0 0 0-.303.248 17 17 0 0 0-.661.629A61 61 0 0 0 10.04 6.77l-.102.111.147-.033a61 61 0 0 0 2.342-.572c.345-.093.642-.18.875-.258a5 5 0 0 0 .367-.138zM11.5 1.938a1 1 0 0 0-1.366.366l-.014.027q-.014.03-.036.084a5 5 0 0 0-.102.283c-.078.233-.165.53-.258.875a61 61 0 0 0-.572 2.342l-.033.147.11-.102a61 61 0 0 0 1.743-1.667c.252-.253.465-.477.629-.66a5 5 0 0 0 .248-.304l.017-.025a1 1 0 0 0-.366-1.366M14 9a1 1 0 0 0 0-2l-.03.002a5 5 0 0 0-.386.064c-.242.049-.543.122-.888.213-.688.182-1.513.428-2.314.676L10.238 8l.144.045c.8.248 1.626.494 2.314.676.345.091.646.164.887.213a5 5 0 0 0 .386.064zM1.938 4.5a1 1 0 0 0 .393 1.38l.084.035q.108.045.283.103c.233.078.53.165.874.258a61 61 0 0 0 2.343.572l.147.033-.103-.111a61 61 0 0 0-1.666-1.742 17 17 0 0 0-.66-.629 5 5 0 0 0-.304-.248l-.025-.017a1 1 0 0 0-1.366.366m2.196-1.196.017.025a5 5 0 0 0 .248.303c.164.184.377.408.629.661A61 61 0 0 0 6.77 5.96l.111.102-.033-.147a61 61 0 0 0-.572-2.342c-.093-.345-.18-.642-.258-.875a5 5 0 0 0-.138-.367l-.014-.027a1 1 0 1 0-1.732 1m9.928 8.196a1 1 0 0 0-.366-1.366l-.027-.014a5 5 0 0 0-.367-.138c-.233-.078-.53-.165-.875-.258a61 61 0 0 0-2.342-.572l-.147-.033.102.111a61 61 0 0 0 1.667 1.742c.253.252.477.465.66.629a5 5 0 0 0 .304.248l.025.017a1 1 0 0 0 1.366-.366m-3.928 2.196a1 1 0 0 0 1.732-1l-.017-.025a5 5 0 0 0-.248-.303 17 17 0 0 0-.629-.661A61 61 0 0 0 9.23 10.04l-.111-.102.033.147a61 61 0 0 0 .572 2.342c.093.345.18.642.258.875a5 5 0 0 0 .138.367zM8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+                </svg>
+            </a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav" >
+			<ul class="navbar-nav ms-auto" >
+			<li class="nav-item"><a class="nav-link " href="#home" style="font-size:20px;">Home</a></li>
+			<li class="nav-item"><a class="nav-link" href="#about" style="font-size:20px;">About Us</a></li>
+			<li class="nav-item"><a class="nav-link" href="#skill" style="font-size:20px;">Skills</a></li>
+			<li class="nav-item"><a class="nav-link" href="#contact" style="font-size:20px;">Contacts Us</a></li>
+			</ul>
+			</div>
+		</div>
+	</nav>
+    <!--nav bar end here-->
+
+    <!-- home  start here-->
+    <section id="home" style="background-color: #dcdcdc;">
+        <div class="container my-5" >
+            <div class="row justify-content-center align-items-center" >
+                <div class="col-md-6 text-center text-md-start">
+                    <h6 class="my-2">HELLO GUYS!</h6>
+                    <hr>
+                    <h1>
+                        <div class="head" style="font-size:60px;">I'M SAPTHIKA ABI</div>
+                        <div class="head" style="font-size:30px;">FRONT-END DEVELOPER</div>
+                    </h1> 
+                    <br>
+                    <a href="#about" class="btn mb-3" id="button">More About Me</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="#contact" class="btn mb-3" id="button">Get In Touch With Me</a>
+                </div>
+                <div class="col-md-6  d-none d-md-block">
+                    <img class="img-fluid" src="assets/images/main4.png" alt="main" >
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--- home end here-->
+
+    <!-- about us start here-->
+    <section id="about" style="background-color: white;">
+        <div class="container" >
+            <div class="row" >
+                <div class="col-md-6  text-md-start">
+                    <h2 class=" text-center mb-3" id="heading">About Me</h2>
+                    <hr class="mb-5">
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="assets/images/abi resume.pdf" class="btn btn-outline-primary w-50" id="btn">&nbsp;&nbsp;View Resume
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#1c1c50" class="bi bi-download" viewBox="0 0 16 16">
+                            <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"/>
+                            <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z"/>
+                        </svg> 
+                    </a>
+                </div>
+            </div>
+            <div class="row" >
+                <div class="col-md-6  d-none d-md-block">
+                    <img class="img-fluid" src="assets/images/main1.png" alt="about" >
+                </div>
+                <div class="col-md-6 text-md-start ">
+                    <h2 class=" fw-bold " id="heading">UI/UX Designer & Web Developer.</h2>
+                    <br>
+                    <p class="lead  fw-bold">I’m a passionate HND IT student aiming to build a career in Full-stack Developer. I'm currently enhancing my skills through personal projects and continuous learning. I’m also developing my own portfolio website using HTML, CSS, and JavaScript and Bootstrap.I'm a passionate UI/UX Designer and front-end developer who loves creating amazing digital experiences.</p>
+                    <p class="lead fw-bold" style="font-size: 20px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#1c1c50" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                            <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+                          </svg>&nbsp;&nbsp;Birthday :27 <sup>th</sup> of June 2001
+                    </p>
+                    <br>
+                    <p class="lead fw-bold" style="font-size: 20px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#1c1c50" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                            <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+                          </svg>&nbsp;&nbsp;Age :23 Years
+                    </p>
+                    <br>
+                    <p class="lead fw-bold" style="font-size: 20px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#1c1c50" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                            <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+                          </svg>&nbsp;&nbsp;Contact No :+94 77890967
+                    </p>
+                    <br>
+                    <p class="lead fw-bold" style="font-size: 20px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#1c1c50" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                            <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+                          </svg>&nbsp;&nbsp;E-mail :sapthika0627@gmail.com
+                    </p>
+                    <br>
+                    <p class="lead fw-bold" style="font-size: 20px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#1c1c50" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                            <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+                          </svg>&nbsp;&nbsp;Diploma :HND IT
+                    </p>
+                    <br>
+                    <p class="lead fw-bold" style="font-size: 20px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#1c1c50" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                            <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+                          </svg>&nbsp;&nbsp;Country :Srilanka
+                    </p>    
+                    <br>    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--- about us end here-->
+
+    <!-- skill start here-->
+    <section id="skill" style="background-color: gainsboro;">
+        <div class="container py-3" >
+            <div class="row justify-content-center align-items-center my-4" >
+                <h2 class="text-center fw-bold mb-2" id="heading">My Skills</h2>
+                <p class="lead text-center fw-bold mb-3">We offer a wide range of Web and Mobile Solutions to meet your needs</p>
+                <hr class="mb-4">
+                <div class="col-md-4 text-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#1c1c50" class="bi bi-code-slash" viewBox="0 0 16 16">
+                        <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0m6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0"/>
+                      </svg>
+                    <br>
+                    <br>
+                    <h5>HTML</h5>
+                    <br>
+                    <p>HTML (Hypertext Markup Language) is a text-based approach to describing how content contained within an HTML file is structured.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#1c1c50" class="bi bi-columns-gap" viewBox="0 0 16 16">
+                        <path d="M6 1v3H1V1zM1 0a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1zm14 12v3h-5v-3zm-5-1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1zM6 8v7H1V8zM1 7a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1zm14-6v7h-5V1zm-5-1a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/>
+                    </svg>
+                    <br>
+                    <br>
+                    <h5>CSS</h5>
+                    <br>
+                    <p>Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML. </p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#1c1c50" class="bi bi-braces" viewBox="0 0 16 16">
+                        <path d="M2.114 8.063V7.9c1.005-.102 1.497-.615 1.497-1.6V4.503c0-1.094.39-1.538 1.354-1.538h.273V2h-.376C3.25 2 2.49 2.759 2.49 4.352v1.524c0 1.094-.376 1.456-1.49 1.456v1.299c1.114 0 1.49.362 1.49 1.456v1.524c0 1.593.759 2.352 2.372 2.352h.376v-.964h-.273c-.964 0-1.354-.444-1.354-1.538V9.663c0-.984-.492-1.497-1.497-1.6M13.886 7.9v.163c-1.005.103-1.497.616-1.497 1.6v1.798c0 1.094-.39 1.538-1.354 1.538h-.273v.964h.376c1.613 0 2.372-.759 2.372-2.352v-1.524c0-1.094.376-1.456 1.49-1.456V7.332c-1.114 0-1.49-.362-1.49-1.456V4.352C13.51 2.759 12.75 2 11.138 2h-.376v.964h.273c.964 0 1.354.444 1.354 1.538V6.3c0 .984.492 1.497 1.497 1.6"/>
+                      </svg>
+                    <br>
+                    <br>
+                    <h5>JAVA SCRIPT</h5>
+                    <br>
+                    <p>A powerful scripting language that adds interactivity, dynamic content, and advanced functionalities to websites, engaging and responsive.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center my-4" >
+                <div class="col-md-4 text-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#1c1c50" class="bi bi-bootstrap" viewBox="0 0 16 16">
+                        <path d="M5.062 12h3.475c1.804 0 2.888-.908 2.888-2.396 0-1.102-.761-1.916-1.904-2.034v-.1c.832-.14 1.482-.93 1.482-1.816 0-1.3-.955-2.11-2.542-2.11H5.062zm1.313-4.875V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23zm0 3.762V8.162h1.822c1.236 0 1.887.463 1.887 1.348 0 .896-.627 1.377-1.811 1.377z"/>
+                        <path d="M0 4a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4zm4-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V4a3 3 0 0 0-3-3z"/>
+                    </svg>
+                    <br>
+                    <br>
+                    <h6>BOOTSTRAP</h6>
+                    <br>
+                    <p>A popular front-end framework that provides pre-designed components and a responsive grid system, enabling faster and mobile-friendly web development.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#1c1c50" class="bi bi-grid-3x3-gap" viewBox="0 0 16 16">
+                        <path d="M4 2v2H2V2zm1 12v-2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1m0-5V7a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1m0-5V2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1m5 10v-2a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1m0-5V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1m0-5V2a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1M9 2v2H7V2zm5 0v2h-2V2zM4 7v2H2V7zm5 0v2H7V7zm5 0h-2v2h2zM4 12v2H2v-2zm5 0v2H7v-2zm5 0v2h-2v-2zM12 1a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zm-1 6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1zm1 4a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1z"/>
+                      </svg>
+                    <br>
+                    <br>
+                    <h5>PHP</h5>
+                    <br>
+                    <p>A server-side scripting language used for dynamic web applications, handling forms, and managing databases efficiently. It powers platforms like WordPress.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#1c1c50" class="bi bi-database" viewBox="0 0 16 16">
+                        <path d="M4.318 2.687C5.234 2.271 6.536 2 8 2s2.766.27 3.682.687C12.644 3.125 13 3.627 13 4c0 .374-.356.875-1.318 1.313C10.766 5.729 9.464 6 8 6s-2.766-.27-3.682-.687C3.356 4.875 3 4.373 3 4c0-.374.356-.875 1.318-1.313M13 5.698V7c0 .374-.356.875-1.318 1.313C10.766 8.729 9.464 9 8 9s-2.766-.27-3.682-.687C3.356 7.875 3 7.373 3 7V5.698c.271.202.58.378.904.525C4.978 6.711 6.427 7 8 7s3.022-.289 4.096-.777A5 5 0 0 0 13 5.698M14 4c0-1.007-.875-1.755-1.904-2.223C11.022 1.289 9.573 1 8 1s-3.022.289-4.096.777C2.875 2.245 2 2.993 2 4v9c0 1.007.875 1.755 1.904 2.223C4.978 15.71 6.427 16 8 16s3.022-.289 4.096-.777C13.125 14.755 14 14.007 14 13zm-1 4.698V10c0 .374-.356.875-1.318 1.313C10.766 11.729 9.464 12 8 12s-2.766-.27-3.682-.687C3.356 10.875 3 10.373 3 10V8.698c.271.202.58.378.904.525C4.978 9.71 6.427 10 8 10s3.022-.289 4.096-.777A5 5 0 0 0 13 8.698m0 3V13c0 .374-.356.875-1.318 1.313C10.766 14.729 9.464 15 8 15s-2.766-.27-3.682-.687C3.356 13.875 3 13.373 3 13v-1.302c.271.202.58.378.904.525C4.978 12.71 6.427 13 8 13s3.022-.289 4.096-.777c.324-.147.633-.323.904-.525"/>
+                    </svg>
+                    <br>
+                    <br>
+                    <h6>MYSQL</h6>
+                    <br>
+                    <p>A widely used database management system that stores, manages, and read structured data efficiently, often paired with PHP for backend development.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--- skill end here-->
+
+    <!-- contact form start here-->
+    <section id="contact" style="background-color: white;">
+		<div class="container">
+		<h2 class="text-center fw-bold mt-5" id="heading">Let's Get In Touch With Us</h2>
+        <p class="lead text-center fw-bold">Question To Ask? Fill Out The Form Contact Me Directly</p>
+        <div class="row">
+            <div class="col-md-6 my-5">
+                <p style="color: #1c1c50; font-weight: bold;">My Location :</p>
+                <p class="lead">421,Power House Road,Trincomalee,Srilanka</p>
+                <hr>
+                <p style="color: #1c1c50; font-weight: bold;">Conatct Number :</p>
+                <p class="lead">+94 77890967</p>
+                <hr>
+                <p style="color: #1c1c50; font-weight: bold;">Mail Address :</p>
+                <p class="lead">abisapthika0627@gmail.com</p>
+                <hr>
+            </div>
+            <div class="col-md-6 my-5">
+                <form action="send.php" method="post" >
+                    <div class="row">
+                        <div class="col-md-6 my-1">
+                            <label for="full name" class="form-label" style="color: #1c1c50; font-weight: bold;">Full Name : </label>
+                            <input type="text" class="form-control" id="full name" name="full_name" placeholder="E.g Jerson.Moonalisa" required="">
+                        </div>
+                        <div class="col-md-6 my-1">
+                            <label for="hand tell" class="form-label" style="color: #1c1c50; font-weight: bold;">Contact No : </label>
+                            <input type="text" class="form-control" id="hand tel" name="phone_no" placeholder="E.g 0767600418" required="">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 my-1">
+                            <label for="Address" class="form-label" style="color: #1c1c50; font-weight: bold;">Address : </label>
+                            <input type="text" class="form-control" id="Address" name="address" placeholder="12/40, Main St. mary's road" required="">
+                        </div>
+                        <div class="col-md-6  my-1">
+                            <label for="Email" class="form-label" style="color: #1c1c50; font-weight: bold;">Email : </label>
+                            <input type="email" class="form-control" id="Email" name="email" placeholder="E.g moonalisa09@gmail.com" required="">
+                        </div>
+                    </div>               
+                    <div class="col-md-12 mt-2"> 
+                        <label for="text" class="form-label" style="color: #1c1c50; font-weight: bold;">Message :</label>
+                        <textarea id="text" name="message" class="form-control" rows="4"  placeholder="E.g Type Your Message Here." required=""></textarea>
+                    </div>
+                    <br>
+                    <div class="col-md-12">
+                        <button type="submit" id="button" class="btn" name="send">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+	</section>
+    <!--- contact form end here-->
+
+    <!--footer bar start here-->
+    <footer style="background: #1c1c50;">
+        <div class="container mt-5 pt-5">
+            <div class="row">
+                <div class="col-md-3 footer-links">
+                    <h4 style="color: aqua; text-shadow:0 0 3px #fff;">Usefull Links</h4>
+                    <ul class="list-unstyled">
+                    <br>
+                      <li><a href="#home">Home Page</a></li>
+                      <li><a href="#contact">Contact Us page</a></li>
+                      <li><a href="#skill">Skills Page</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 footer-links">
+                    <h4 style="color: aqua; text-shadow:0 0 3px #fff;">My Knowledge</h4>
+                    <br>
+                      <p style="color: #fff;">HTML <br> CSS <br> JS <br> BOOTSTRAP</p> 
+                </div>
+                <div class="col-md-3 footer-links">
+                    <h4 style="color: aqua; text-shadow:0 0 3px #fff;">Social Media</h4>
+                    <br>
+                    <p style="color: #fff; ">Visit my social media platform to support me and if you follow my pages you will see my next post.</p>
+                    <div class="socail-links mt-3 ">
+                        <a href="#" class="twiiter" style="text-decoration: none;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-twitter" viewBox="0 0 16 16">
+                                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
+                            </svg>
+                        </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="#" class="instrgram" style="text-decoration: none;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-instagram" viewBox="0 0 16 16">
+                                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                            </svg>
+                        </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="#" class="tiktok" style="text-decoration: none;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-tiktok" viewBox="0 0 16 16">
+                                <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z"/>
+                            </svg>
+                        </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="#" class="youtube" style="text-decoration: none;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-youtube" viewBox="0 0 16 16">
+                                <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+                              </svg>
+                        </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </div>
+                </div>
+                <div class="col-md-3 footer-links text-center">
+                    <h4 style="color: aqua; text-shadow:0 0 3px #fff;">My Location</h4>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d246.57853639404456!2d81.23129466113039!3d8.571309468961198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afbbcb821f8b945%3A0xbe5a705ce9e144a5!2s421%20Power%20House%20Rd%2C%20Trincomalee!5e0!3m2!1sen!2slk!4v1739119592013!5m2!1sen!2slk" width="250" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-12 mt-4 mb-2 text-center text-white">
+                    &copy; 2025 Personal Portfolio.All Rights Reserved
+                    <div class="text-center">
+                        <strong>Designed By B.Sapthika.</strong>
+                    </div>
+                </div>
+            </div>
+    </footer>
+    
+    <!---- footer bar end here----->
+    
+    <!-----Scrool up start here ----->
+    
+    <div class="text-center justify-content-center align-items-center"></div>
+        <button style="background-color: aqua;" class="btn position-fixed bottom-0 end-0 translate-middle d-none" onclick="scrollToTop()" id="back-to-up">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#000" class="bi bi-arrow-up" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5"/>
+            </svg>
+        </button>
+    </div>
+    <!-------Scrool up end here------->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="assets/script.js"></script>   
+</body>
+</html>

@@ -1,0 +1,60 @@
+body
+{
+    font-family: 'Times New Roman', Times, serif;
+}
+#heading
+{
+    font-size: 30px;
+    color: #1c1c50;
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px ;
+}
+.head{
+    color: #1c1c50;
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px ;
+}
+#navbarNav .nav-link
+{
+    color: white;
+}
+#navbarNav .nav-link:hover
+{
+    color: aqua;
+    text-shadow:0 0 3px #fff;
+}
+.list-unstyled a
+{
+    color: white;
+    text-decoration: none;
+}
+.list-unstyled a:hover
+{
+    color: aqua;
+    text-shadow:0 0 3px #fff;
+}
+#button{
+    background-color: gainsboro;
+    width: 220px;
+    height: 60px;
+    border: 3px solid #1c1c50;
+    color: #1c1c50;
+    font-size: 20px;
+}
+#button:hover{
+    background-color: #1c1c50;
+    border: 3px solid gainsboro;
+    color: aqua;
+}
+#btn
+{
+    font-size: 20px;
+    color: #1c1c50;
+    text-shadow: 2px 2px 4px ;
+}
+#btn:hover
+{
+    font-size: 20px;
+    color: aqua;
+    text-shadow: 2px 2px 4px ;
+}

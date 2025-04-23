@@ -33,6 +33,9 @@ body
     color: aqua;
     text-shadow:0 0 3px #fff;
 }
+.card-img-top{
+    min-height: 600px;
+}
 #button{
     background-color: gainsboro;
     width: 200px;
